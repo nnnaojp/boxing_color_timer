@@ -1,6 +1,6 @@
 **Privacy Policy**
 
-nnnao built the BOXING COLOR TIMER app as a Free app. This SERVICE is provided by nnnao at no cost and is intended for use as is.
+nnnaojp built the BOXING COLOR TIMER app as a Free app. This SERVICE is provided by nnnaojp at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
