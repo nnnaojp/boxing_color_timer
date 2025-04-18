@@ -1,0 +1,15 @@
+<?php
+ 
+header('HTTP/1.1 200 OK');
+$endpointURL = 'https://<ドメイン>/xxx/endpoint.php';   //(1)EndPointURL
+$verificationToken = 'xxxxxxxxxxxxxxxxxxxx';   //(2)VerificationToken
+ 
+if(isset($_GET['challenge_code']))
+{
+    header('Content-Type: application/json');
+    $d = $_GET['challenge_code'].$verificationToken.$endpointURL;
+    $hd = array("challengeResponse"=>hash("sha256", $d));
+    echo(json_encode($hd));
+ 
+}
+?>
